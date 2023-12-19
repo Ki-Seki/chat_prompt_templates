@@ -73,6 +73,17 @@ You are a helpful assistant.<|im_end|>
   * https://github.com/QwenLM/Qwen/blob/5aa84bdfd3237b37f01bc88cd49b3279b9a71d0b/examples/vllm_wrapper.py#L32
   * https://github.com/vllm-project/vllm/issues/901
 * Model Site: https://huggingface.co/Qwen/Qwen-7B-Chat
+* Note: Qwen will output special tokens like `<|im_end|>` or `<|endoftext|>`, you can remove texts after them or use `stop` parameter like:
+
+```python
+# Using vLLM interface
+payload = json.dumps({
+    "prompt": query,
+    "n": 1,
+    "stop": ["<|endoftext|>", "<|im_end|>"],
+})
+
+```
 
 ## XXX Prompt Template
 
