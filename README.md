@@ -2,9 +2,15 @@
 
 Collection of Basic Prompt Templates for Various Chat LLMs
 
+Chat LLM 的基础提示模板集合
+
 **Motivation**: The basic prompt template will significantly affect the effectiveness of instruction following. Models of different architectures may use different prompt templates during training. However, at present, these templates can be challenging to locate; sometimes they are embedded in example codes, hidden within GitHub issues, or occasionally found in official blogs...
 
+**动机**: 基础提示模板会显著影响指令跟随的效果。不同架构的模型在训练时可能使用不同的提示模板。然而，目前这些模板往往难以找到；有时它们嵌入在示例代码中，有时隐藏在 GitHub 问题中，有时偶尔在官方博客中发现...
+
 (Alphabetical order by architecture)
+
+（按架构名称的字典序排列）
 
 ## Baichuan Prompt Template
 
