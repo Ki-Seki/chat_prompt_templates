@@ -39,6 +39,21 @@ You are ChatGLM3, a large language model trained by Zhipu.AI. Follow the user's 
 * Model Site: https://huggingface.co/THUDM/chatglm3-6b
 * Note: If no special template is provided, the instruction following still works very well.
 
+## InternLM Prompt Template
+
+```python
+template = """<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+{query}<|im_end|>
+<|im_start|>assistant
+"""
+```
+
+* References:
+  * https://huggingface.co/internlm/internlm-chat-20b/blob/main/modeling_internlm.py
+* Model Site: https://huggingface.co/internlm/internlm-chat-20b
+
 ## LLaMA2 Prompt Template
 
 ```python
