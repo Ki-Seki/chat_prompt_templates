@@ -1,12 +1,15 @@
 # Chat Prompt Templates
 
-Collection of Basic Prompt Templates for Various Chat LLMs
-
-Chat LLM 的基础提示模板集合
+Collection of Basic Prompt Templates for Various Chat LLMs | Chat LLM 的基础提示模板集合
 
 **Motivation**: The basic prompt template will significantly affect the effectiveness of instruction following. Models of different architectures may use different prompt templates during training. However, at present, these templates can be challenging to locate; sometimes they are embedded in example codes, hidden within GitHub issues, or occasionally found in official blogs...
 
 **动机**: 基础提示模板会显著影响指令跟随的效果。不同架构的模型在训练时可能使用不同的提示模板。然而，目前这些模板往往难以找到；有时它们嵌入在示例代码中，有时隐藏在 GitHub 问题中，有时偶尔在官方博客中发现...
+
+> [!Important]
+> First check InternLM/xtuner's [templates.py](https://github.com/InternLM/xtuner/blob/main/xtuner/utils/templates.py). If not found there, then return to this repository for your search.
+>
+> 请首先在 InternLM/xtuner 的 [templates.py](https://github.com/InternLM/xtuner/blob/main/xtuner/utils/templates.py) 中搜索你需要的模板。如果在那里找不到，请返回到此仓库搜索。
 
 (Alphabetical order by architecture)
 
@@ -39,7 +42,7 @@ You are ChatGLM3, a large language model trained by Zhipu.AI. Follow the user's 
 * Model Site: https://huggingface.co/THUDM/chatglm3-6b
 * Note: If no special template is provided, the instruction following still works very well.
 
-## InternLM Prompt Template
+## InternLM2 Prompt Template
 
 ```python
 template = """<|im_start|>system
