@@ -11,6 +11,11 @@ Collection of Basic Prompt Templates for Various Chat LLMs | Chat LLM 的基础�
 >
 > 请首先在 InternLM/xtuner 的 [templates.py](https://github.com/InternLM/xtuner/blob/main/xtuner/utils/templates.py) 中搜索你需要的模板。如果在那里找不到，请返回到此仓库搜索。
 
+> [!Note]
+> [Chat Markup Language](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/ai-services/openai/includes/chat-markup-language.md) is the mainstream.
+>
+> [Chat Markup Language](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/ai-services/openai/includes/chat-markup-language.md) 是主流格式。
+
 (Alphabetical order by architecture)
 
 （按架构名称的字典序排列）
