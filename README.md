@@ -47,6 +47,19 @@ You are ChatGLM3, a large language model trained by Zhipu.AI. Follow the user's 
 * Model Site: https://huggingface.co/THUDM/chatglm3-6b
 * Note: If no special template is provided, the instruction following still works very well.
 
+## Gemma Prompt Template
+
+```python
+template = """<bos><start_of_turn>user
+{query}<end_of_turn>
+<start_of_turn>model"""
+```
+
+* References:
+  * https://huggingface.co/google/gemma-2b-it
+* Model Site: https://huggingface.co/google/gemma-2b-it
+* Note: Gemma does not have a system field
+
 ## InternLM2 Prompt Template
 
 ```python
