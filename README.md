@@ -127,6 +127,21 @@ payload = json.dumps({
 
 ```
 
+## Yi Prompt Template
+
+```python
+template = """<|im_start|>system
+{system_message}<|im_end|>
+<|im_start|>user
+{prompt}<|im_end|>
+<|im_start|>assistant"""
+```
+
+* References:
+  * https://github.com/01-ai/Yi/pull/177/files
+  * https://huggingface.co/01-ai/Yi-34B-Chat/blob/main/tokenizer_config.json#L60
+* Model Site: https://huggingface.co/01-ai/Yi-34B-Chat
+
 ## XXX Prompt Template
 
 ```python
