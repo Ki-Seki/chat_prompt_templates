@@ -142,6 +142,23 @@ template = """<|im_start|>system
   * https://huggingface.co/01-ai/Yi-34B-Chat/blob/main/tokenizer_config.json#L60
 * Model Site: https://huggingface.co/01-ai/Yi-34B-Chat
 
+## Meta Llama3 Instruct Prompt Template
+
+```python
+template = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a helpful AI assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+{query}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+"""
+```
+
+* References: https://llama.meta.com/docs/model-cards-and-prompt-formats/meta-llama-3/#llama-3-instruct
+* Model Site: https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct
+* Note: 
+  * Newlines (0x0A) are part of the prompt format, for clarity in the examples, they have been represented as actual new lines.
+  * The model expects the assistant header at the end of the prompt to start completing it.
+
 ## XXX Prompt Template
 
 ```python
